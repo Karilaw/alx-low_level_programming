@@ -1,13 +1,14 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: 0
+ * main - entry point
+ * Return:0 
  */
 int main(void)
 {
+/* Code goes Here */
 	char letter;
 
-	for (letter = "z"; letter >= "a"; letter--)
+	for (letter = 'z'; letter >= 'a'; letter--)
 	{
 		putchar(letter);
 	}
