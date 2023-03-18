@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main- Eentry point
  * Return: 0 
  */
 int main(void)
 {
-/* Code goes Here */
 	char letter;
 
 	for (letter = 'z'; letter >= 'a'; letter--)
