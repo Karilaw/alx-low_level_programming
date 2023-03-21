@@ -1,17 +1,13 @@
 #include "main.h"
 /**
- * _isalpha -  A function that checks for alphabetic character.
- * Return: 1(Success if a lowercase letter) else 0(otherwise)
- * @c: is valuable representing a lowercase letter
+ * _isalpha - checks for alphabetic character
+ * @c: The character to check
+ * Return: 1 if c is lowercase letter, 0 otherwise
  */
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
-	{
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
