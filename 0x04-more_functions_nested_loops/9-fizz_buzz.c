@@ -1,3 +1,6 @@
+#ifndef FIZZ_BUZZ_H
+#define FIZZ_BUZZ_H
+
 #include <stdio.h>
 
 /* fizz_buzz.c - A program that prints Fizz Buzz */
@@ -24,3 +27,5 @@ int main(void)
 	printf("\n");
 	return (0);
 }
+
+#endif /* FIZZ_BUZZ_H */
