@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/*
- * main - A program that prints number of args
- * @argc: Holds the number of args
- * @argv: Array of string of parameters
- * Return: Total number of args passed
+/**
+ * main - counts the number of args
+ * @argc: number of args
+ * @argv: array of args
+ * Return: Return 0 if success
  */
 
 int main(int argc, char *argv[])
