@@ -2,6 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * _strlen - Returns the length
+ * @s: The string to measure
+ * Return: Length of s
+ */
+
 int _strlen(char *s)
 {
 	int len = 0;
@@ -18,16 +24,16 @@ int _strlen(char *s)
 	return (len);
 }
 /**
- * _strcpy - copies a string to another buffer
- * @dest: the destination buffer
- * @src: the source string
- * Return: a pointer to dest
+ * _strcpy - Copies a string to another buffer
+ * @dest: The destination buffer
+ * @src: The source string
+ * Return: A pointer to dest
  */
 
 char *_strcpy(char *dest, char *src)
 {
 	int i = 0;
-	
+
 	if (src == NULL)
 	{
 		return (dest);
@@ -41,11 +47,11 @@ char *_strcpy(char *dest, char *src)
 	return (dest);
 }
 /**
- * string_nconcat - concatenates two strings
- * @s1: the first string
- * @s2: the second string
- * @n: the number of bytes to copy from s2
- * Return: a pointer to a new string that contains s1 and n bytes of s2
+ * string_nconcat - Concatenates strings
+ * @s1: The first string
+ * @s2: The second string
+ * @n: The number of bytes to copy from s2
+ * Return: A pointer to a new string that contains s1 and n bytes of s2
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
